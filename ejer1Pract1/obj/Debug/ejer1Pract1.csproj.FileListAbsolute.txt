@@ -1,0 +1,6 @@
+c:\users\licsistemas\documents\visual studio 2013\Projects\ejer1Pract1\ejer1Pract1\bin\Debug\ejer1Pract1.exe.config
+c:\users\licsistemas\documents\visual studio 2013\Projects\ejer1Pract1\ejer1Pract1\bin\Debug\ejer1Pract1.exe
+c:\users\licsistemas\documents\visual studio 2013\Projects\ejer1Pract1\ejer1Pract1\bin\Debug\ejer1Pract1.pdb
+c:\users\licsistemas\documents\visual studio 2013\Projects\ejer1Pract1\ejer1Pract1\obj\Debug\ejer1Pract1.csprojResolveAssemblyReference.cache
+c:\users\licsistemas\documents\visual studio 2013\Projects\ejer1Pract1\ejer1Pract1\obj\Debug\ejer1Pract1.exe
+c:\users\licsistemas\documents\visual studio 2013\Projects\ejer1Pract1\ejer1Pract1\obj\Debug\ejer1Pract1.pdb
