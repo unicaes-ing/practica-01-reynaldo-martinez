@@ -34,16 +34,16 @@ namespace ejer1Pract1
             switch (opc)
             {
                 case 1:
-                    Console.WriteLine(String.Format("suma: {0:C1}", num1 + num2));
+                    Console.WriteLine(String.Format("suma: {0:N1}", num1 + num2));
                     break;
                 case 2:
-                    Console.WriteLine(String.Format("resta: {0:C1}", num1 - num2));
+                    Console.WriteLine(String.Format("resta: {0:N1}", num1 - num2));
                     break;
                 case 3:
-                    Console.WriteLine(String.Format("multiplicacion: {0:C1}", num1 * num2));
+                    Console.WriteLine(String.Format("multiplicacion: {0:N1}", num1 * num2));
                     break;
                 case 4:
-                    Console.WriteLine(String.Format("division: {0:C1}", num1 / num2));
+                    Console.WriteLine(String.Format("division: {0:N1}", num1 / num2));
                     break;
                 default:
                     System.Environment.Exit(-1);

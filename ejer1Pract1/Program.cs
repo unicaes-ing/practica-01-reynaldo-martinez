@@ -22,6 +22,7 @@ namespace ejer1Pract1
                 Console.WriteLine("5.Ejercicio5");
                 Console.WriteLine("6.Ejercicio6");
                 menu = Convert.ToInt32(Console.ReadLine());
+                Console.Clear();
 
                 switch (menu)
                 {
@@ -40,12 +41,15 @@ namespace ejer1Pract1
                     case 5:
                         ejer5.quinto();
                         break;
+                    case 6:
+                        ejer6.sexto();
+                        break;
 
                     default:
                         break;
                 }
-
-                Console.WriteLine("desea hacer otrto ejercicio?");
+               
+                Console.WriteLine(" desea hacer otrto ejercicio?");
                 respuesta = Console.ReadLine();
                 Console.Clear();
                 

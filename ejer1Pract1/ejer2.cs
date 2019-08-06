@@ -28,8 +28,8 @@ namespace ejer1Pract1
             Console.WriteLine("Coloque la fecha de contratacion");
             fecha = Convert.ToDateTime(Console.ReadLine());
 
-            Console.WriteLine("El nombre del empleado es: " + nombre + "El correo del empleado es: " + correo + "El cargo del empleado es: " + cargo + "El sueldo del empleado es: " + sueldo);
-            Console.WriteLine("La edad del empleado es: " + edad + "La fecha de contratacion es: " + fecha);
+            Console.WriteLine("El nombre del empleado es: " + nombre + " El correo del empleado es: " + correo + " El cargo del empleado es: " + cargo + " El sueldo del empleado es: " + sueldo);
+            Console.WriteLine(" La edad del empleado es: " + edad + "La fecha de contratacion es: " + fecha.ToString("ddd/MMMM/yyyy"));
 
 
           

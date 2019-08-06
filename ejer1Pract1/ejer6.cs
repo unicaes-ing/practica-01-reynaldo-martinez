@@ -16,7 +16,7 @@ namespace ejer1Pract1
            // numéricas y monetarias)
 
             string nombre;
-            double sueldo, iss, renta, afp, nSueldo, suma;
+            double sueldo, iss, renta, afp, nSueldo, suma1, suma2;
 
             Console.WriteLine("Coloque el nombre del empleado");
             nombre = Console.ReadLine();
@@ -26,14 +26,15 @@ namespace ejer1Pract1
             iss = sueldo * 0.0725;
             afp = sueldo * 0.13;
             renta = sueldo * 0.13;
-            suma = iss - afp - renta;
+            suma1 = (iss + afp );
+            suma2 = suma1 + renta;
             Console.WriteLine("Nombre empleado: " + nombre);
             Console.WriteLine("descuentos:");
-            Console.WriteLine("iss:" + iss);
+            Console.WriteLine("iss:" + iss.ToString("N2"));
             Console.WriteLine("afp:" + afp);
             Console.WriteLine("renta:" + renta);
-            nSueldo = sueldo - suma;
-            Console.WriteLine("Nuevo sueldo:" + nSueldo);
+            nSueldo = sueldo - suma2;
+            Console.WriteLine("Nuevo sueldo:" + nSueldo.ToString("N2"));
             
             
         }

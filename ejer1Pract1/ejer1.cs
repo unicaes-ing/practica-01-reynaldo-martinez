@@ -20,7 +20,7 @@ namespace ejer1Pract1
             Console.WriteLine("Coloque la especie de la mascota");
             especie = Console.ReadLine();
 
-            Console.WriteLine("El nombre de la mascota es:" + nombre + "La edad de la mascota es: " + edad + "La especie de la mascota es: " + especie);
+            Console.WriteLine("El nombre de la mascota es: " + nombre + " La edad de la mascota es: " + edad + " La especie de la mascota es: " + especie);
 
         }
 
